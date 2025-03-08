@@ -13,9 +13,7 @@ public:
    Robot(int id, float angle, float angularVelocity,
          const Entity<Point> &entity);
 
-   [[nodiscard]] inline float angularVelocity() const {
-      return m_angularVelocity;
-   }
+   constexpr float angularVelocity() const { return m_angularVelocity; }
 
    constexpr int id() const { return m_id; }
 

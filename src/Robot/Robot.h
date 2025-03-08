@@ -1,5 +1,5 @@
-#ifndef ROBOT
-#define ROBOT
+#ifndef TRAINEE_CPP_ROBOT_H
+#define TRAINEE_CPP_ROBOT_H
 
 #include "../Common/Common.h"
 #include "../Libraries/Libs.h"
@@ -27,4 +27,4 @@ private:
 
 using Robots = std::vector<Robot>;
 
-#endif /* ROBOT */
+#endif /* TRAINEE_CPP_ROBOT_H */
